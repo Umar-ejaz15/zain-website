@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --dark1: #111019;
+  --dark2: #2d2d2d;
+  --dark3: #ffffff;
+
+  --light1: #ffffff;
+  --light2: #f5f5f5;
+  --light3: #1a1a1a;
+
+  --font1: "./assets/fa-solid-900.woff2";
+  --font2: "./assets/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2";
+  --font3: "./assets/modules.woff";
+  --font4: "./assets/NGSwv5HMAFg6IuGlBNMjxLsH8ahuQ2e8.woff2";
+  --font5: "./assets/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2";
+}
