@@ -1,5 +1,7 @@
 import About from "../Components/About";
+import About2 from "../Components/About2";
 import Main from "../Components/Main";
+import Help from "../Components/Help";
 import Navigation from "../Components/Navigation";
 
 const Page1 = () => {
@@ -12,6 +14,8 @@ const Page1 = () => {
         <Navigation />
         <Main />
         <About/>
+        <About2/>
+        <Help/>
         
       </div>
     </div>
