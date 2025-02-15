@@ -1,7 +1,7 @@
 const About2 = () => {
   return (
-    <div className="w-full h-auto relative flex flex-col justify-center items-center">
-      <div className="bg-[#191923] w-full h-full px-6 py-5 md:px-20 md:py-10 rounded-4xl ">
+    <div className="w-full h-auto relative flex flex-col justify-center items-center px-5">
+      <div className="bg-[#191923] w-full h-full px-5 py-5 md:px-20 md:py-10 rounded-4xl ">
         <h1 className=" text-3xl mt-5 md:text-7xl w-full md:w-2/3 tighter font-bold leading-none">
           You have a lot on your plate.{" "}
           <span className="bg-gradient-to-r from-[#FF8B57] via-orange-500 to-[#FF8B57] bg-clip-text text-transparent">

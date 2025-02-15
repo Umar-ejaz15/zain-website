@@ -33,7 +33,7 @@ const Help = () => {
         <div className="border-b-[1px] border-gray-400/20 my-5 w-1/2"></div>
       </div>{" "}
       <div className="w-full h-auto mt-10 px-5 md:px-20">
-        <h1 className="text-2xl md:text-5xl w-full md:w-2/3 font-bold">
+        <h1 className="text-2xl md:text-6xl w-full md:w-2/3 font-bold text-[#C4CFDE]">
           I{" "}
           <span className=" bg-gradient-to-b from-[#4474E3] to-[#4E58DF] text-transparent bg-clip-text">
             take on the stress
