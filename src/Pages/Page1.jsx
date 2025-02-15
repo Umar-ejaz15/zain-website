@@ -1,3 +1,4 @@
+import About from "../Components/About";
 import Main from "../Components/Main";
 import Navigation from "../Components/Navigation";
 
@@ -10,6 +11,8 @@ const Page1 = () => {
       <div className="container mx-auto">
         <Navigation />
         <Main />
+        <About/>
+        
       </div>
     </div>
   );

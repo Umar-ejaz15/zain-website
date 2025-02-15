@@ -1,4 +1,5 @@
 import Button from "./ui/Button";
+import Frame from "./ui/Frame";
 import Gradient from "./ui/Gradient";
 
 const Main = () => {
@@ -25,6 +26,7 @@ const Main = () => {
         <Button btntext="Currently Available" />
       </div>
       <Gradient/>
+      <Frame/>
     </div>
   );
 };

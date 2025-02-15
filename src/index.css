@@ -15,3 +15,7 @@
   --font4: "./assets/NGSwv5HMAFg6IuGlBNMjxLsH8ahuQ2e8.woff2";
   --font5: "./assets/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2";
 }
+
+*{
+  font-family: var(--font2);
+}
