@@ -3,19 +3,19 @@ import Card from "./Card";
 const Help = () => {
   const data = [
     {
-      img: "/public/brand.png",
+      img: "/brand.png",
       title: "Branding Stuff",
       description:
         "Craft a lasting and influential brand identity that consistently sets you apart as a professional. Achieving a polished look has never been easier.",
     },
     {
-      img: "/public/web.png",
+      img: "/web.png",
       title: "Stunning Website",
       description:
         "WordPress equips you with everything essential for success while offering a custom CMS, minus the hassles found on other platforms.",
     },
     {
-      img: "/public/seo.png",
+      img: "/seo.png",
       title: "Search Engine Optimization (SEO)",
       description:
         " Your business demands peak performance, not just a pretty facade. Discover how we turbocharge your success with our SEO expertise!",
