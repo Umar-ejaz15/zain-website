@@ -4,19 +4,19 @@ import Service from "./Service";
 const Whyme = () => {
   const data = [
     {
-      img: "/public/transperency.webp",
+      img: "/transperency.webp",
       txt: "  Transparency About Project",
     },
     {
-      img: "/public/growth.webp",
+      img: "/growth.webp",
       txt: "Growth-Oriented Approach",
     },
     {
-      img: "/public/exterm.webp",
+      img: "/exterm.webp",
       txt: "Extremely Fast Execution",
     },
     {
-      img: "/public/solutions.webp",
+      img: "/solutions.webp",
       txt: "Customized Solutions",
     },
   ];

@@ -4,19 +4,19 @@ import Card from "./Card";
 const Tweaking = () => {
   const data = [
     {
-      img: "/public/bobcat.svg",
+      img: "/bobcat.svg",
       title: "Bobcat Designers",
       description:
         "Experience the Ultimate in Web and Graphic Design Excellence with Bobcat Designers – Where Creativity Meets Innovation to Transform Your Vision into Reality!",
     },
     {
-      img: "/public/seoadut.svg",
+      img: "/seoadut.svg",
       title: "The SEO Auditors",
       description:
         " Unlock SEO Excellence with The SEO Auditors – Your Premier Destination for Comprehensive SEO Audits and In-Depth Analysis!",
     },
     {
-      img: "/public/webdesign.svg",
+      img: "/webdesign.svg",
       title: "Web Designs",
       description:
         "Elevate Your Online Presence with My Expertise in Crafting and Authoring Engaging Content on My Specialized Niche Blogging Websites",
