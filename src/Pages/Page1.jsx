@@ -8,7 +8,7 @@ const Page1 = () => {
       className="w-full min-h-screen"
       style={{ backgroundColor: "var(--dark1)", color: "var(--dark3)" }}
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto overflow-hidden">
         <Navigation />
         <Main />
         <About/>
