@@ -7,8 +7,15 @@ import Tweaking from "../Components/Tweaking";
 import DigitalSucces from "../Components/DigitalSucces";
 import Works from "../Components/Works";
 import Whyme from "../Components/Whyme";
+import Reviews from "../Components/Reviews";
+import SampleProcess from "../Components/SampleProcess";
+import Pricing from "../Components/Pricing";
+import LocomotiveScroll from "locomotive-scroll";
+import Final from "../Components/Final";
 
 const Page1 = () => {
+  const locomotiveScroll = new LocomotiveScroll();
+
   return (
     <div
       className="w-full min-h-screen"
@@ -26,7 +33,13 @@ const Page1 = () => {
         </div>
         <Works />
         <div className="container mx-auto">
-          <Whyme/>
+          <Whyme />
+        </div>
+        <Reviews />
+        <SampleProcess />
+        <div className="container mx-auto">
+          <Pricing />
+          <Final />
         </div>
       </div>
     </div>
