@@ -5,7 +5,7 @@ import Gradient from "./ui/Gradient";
 const Main = () => {
   return (
     <div className="w-full h-screen relative flex flex-col justify-center items-center">
-      <div className="w-36 h-36 object-center object-cover ">
+      <div className="w-36 h-36 object-center object-cover  ">
         <img 
           className="w-full h-full rounded-full shadow-lg hover:scale-105 transition-transform duration-300" 
           src="../../profile.jpg" 

@@ -11,7 +11,7 @@ const Navigation = () => {
         <div>
           <h1 className="text-xl md:text-2xl font-medium uppercase text-center">Zain ul Abiddin</h1>
         </div>
-        <div className="text-[6.5px] flex flex-wrap gap-2 justify-center content-center font-thin">
+        <div className="text-[6px] md:text-[6.5px] flex flex-wrap gap-2 justify-center content-center font-thin">
           <h2 className="text-yellow-500">Search Engine Optimization</h2>
           <h2 className="text-blue-500">Website Designer</h2>
           <h2 className="text-red-500">Website Developer</h2>

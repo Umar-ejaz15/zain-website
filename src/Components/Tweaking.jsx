@@ -34,15 +34,15 @@ const Tweaking = () => {
           </div>
           <div className="border-b-[1px] border-gray-400/20 my-5 w-1/2"></div>
         </div>{" "}
-        <div className="px-5 md:px-20">
-          <h1 className="text-5xl md:text-7xl tracking-tighter leading-none font-bold w-full md:w-1/2">
+        <div className="px-5 md:px-5">
+          <h1 className="text-5xl md:text-7xl tracking-tighter leading-none font-bold md:w-full lg:w-2/3 ">
             Take a look at what i've been
             <span className="bg-gradient-to-l from-[#E0AE24] to-[#D69518] text-transparent bg-clip-text  ">
               {" "}
               tweaking
             </span>
           </h1>
-          <div className="cards grid grid-cols-1 md:grid-cols-3 mt-5 md:mt-20 gap-6">
+          <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5 md:mt-20 gap-6">
             {data.map((items, index) => {
               return (
                 <Card
