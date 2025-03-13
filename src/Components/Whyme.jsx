@@ -20,8 +20,8 @@ const Whyme = () => {
     },
   ];
   return (
-    <section className="container mx-auto px-5 py-4 ">
-      <div className="bg-gradient-to-b rounded-3xl shadow-xl w-full from-[#34046E] to-[#06154A] flex flex-col lg:flex-row gap-8 p-4 sm:p-8 lg:px-12">
+    <section className=" px-5 md:px-10 py-4 ">
+      <div className="bg-gradient-to-b rounded-md shadow-xl w-full from-[#34046E] to-[#06154A] flex flex-col lg:flex-row gap-8 px-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-center items-center ">
           {data.map((item, index) => (
             <Service img={item.img} txt={item.txt} key={index} />

@@ -18,11 +18,11 @@ const Page1 = () => {
 
   return (
     <div
-      className="w-full min-h-screen"
-      style={{ backgroundColor: "var(--dark1)", color: "var(--dark3)" }}
+      className="w-full min-h-screen bg-zinc-950"
+      style={{  color: "var(--dark3)" }}
     >
       <div className="">
-        <div className="container  mx-auto overflow-hidden">
+        <div className=" md:px-10 mx-auto overflow-hidden">
           <Navigation />
           <Main />
           <About />
@@ -31,13 +31,13 @@ const Page1 = () => {
           <Tweaking />
           <DigitalSucces />
         </div>
-        <Works />
-        <div className="container mx-auto">
+        <div>
+          <Works />
           <Whyme />
+          <Reviews />
+          <SampleProcess />
         </div>
-        <Reviews />
-        <SampleProcess />
-        <div className="container mx-auto">
+        <div className="md:px-10 mx-auto overflow-hidden">
           <Pricing />
           <Final />
         </div>

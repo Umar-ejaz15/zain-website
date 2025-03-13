@@ -20,7 +20,7 @@ const SampleProcess = () => {
     },
   ];
   return (
-    <div className="bg-black w-full h-auto px-4 md:px-20 lg:px-40 py-20">
+    <div className="bg-black w-full h-auto px-5 l md:px-10 ">
       <div className="flex gap-1 justify-center items-center mb-10">
         <div className="border-b-2 border-gray-200/20 w-1/4 md:w-1/3 lg:w-1/2"></div>
         <div>

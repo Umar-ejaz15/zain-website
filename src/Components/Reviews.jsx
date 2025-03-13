@@ -25,8 +25,8 @@ const Reviews = () => {
     },
   ];
   return (
-    <div className="w-full h-auto bg-blue-600 px-5 md:px-20  py-5 md:py-20">
-      <div className="grid grid-col-1 md:grid-cols-1 lg:grid-cols-2 bg-[#01051B] rounded-4xl gap-10 px-5 md:gap-10 md:px-20 py-6">
+    <div className="w-full h-auto bg-blue-600 px-5   py-5 md:px-10">
+      <div className="grid grid-col-1 md:grid-cols-1 lg:grid-cols-2 bg-[#01051B] rounded-md gap-10 px-5 md:gap-10 md:px-20 py-6">
         <div className="left ">
           <h2 className="text-2xl  lg:text-5xl bg-gradient-to-b from-[#76FAB4] to-[#76FAB4] text-transparent bg-clip-text font-bold">
             Working with Usman is like having a superhero on your side. He's

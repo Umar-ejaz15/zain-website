@@ -9,12 +9,14 @@ const Navigation = () => {
     <nav className="flex flex-row md:flex-row justify-between items-center py-3 px-4 relative">
       <div className="left flex flex-col justify-center items-center mb-4 md:mb-0">
         <div>
-          <h1 className="text-xl md:text-2xl font-medium uppercase text-center">Zain ul Abiddin</h1>
+          <h1 className="text-3xl md:text-4xl  font-bold uppercase text-center">
+            Zain Ul Abdin
+          </h1>
         </div>
-        <div className="text-[6px] md:text-[6.5px] flex flex-wrap gap-2 justify-center content-center font-thin">
-          <h2 className="text-yellow-500">Search Engine Optimization</h2>
-          <h2 className="text-blue-500">Website Designer</h2>
-          <h2 className="text-red-500">Website Developer</h2>
+        <div className="text-[6px] md:text-[7.5px] flex flex-wrap gap-2 justify-center content-center font-thin">
+          <h2 className="text-yellow-500">Product Marketing Specialist</h2>
+          <h2 className="text-blue-500">Social Media Marketing </h2>
+          <h2 className="text-red-500">Digital Marketing Specialist</h2>
         </div>
       </div>
       <div className="md:hidden">
@@ -23,7 +25,11 @@ const Navigation = () => {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         />
       </div>
-      <div className={`right ${isMenuOpen ? 'block' : 'hidden'} md:block absolute md:relative top-full left-0 w-full md:w-auto shadow-lg md:shadow-none z-50`}>
+      <div
+        className={`right ${
+          isMenuOpen ? "block" : "hidden"
+        } md:block absolute md:relative top-full left-0 w-full md:w-auto shadow-lg md:shadow-none z-50`}
+      >
         <ul className="flex flex-col md:flex-row gap-4 md:gap-6 text-base md:text-lg p-4 md:p-0">
           <li className="cursor-pointer hover:text-gray-600 flex items-center gap-2">
             {/* <AiOutlineHome className="w-5 h-5" /> */}

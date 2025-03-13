@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 
 const Frame = () => {
   return (
-    <div className="hidden md:flex w-full h-screen justify-between items-center absolute text-sm px-4 sm:px-16 md:px-32 -rotate-12 overflow-hidden">
-      <div className="flex flex-col items-center gap-1 sm:gap-20 md:gap-40">
+    <div className="hidden lg:flex w-full h-screen justify-between items-center absolute text-sm   -top-15 left-0 overflow-hidden -rotate-12  px-20">
+      <div className="flex flex-col items-center gap-1  sm:gap-20 md:gap-60">
         <motion.h1
           initial={{ rotate: -12, y: 0 }}
           animate={{ y: [-10, 10, -10] }}
           transition={{ repeat: Infinity, duration: 2 }}
-          className="bg-amber-500 text-black px-4 py-2 rounded text-xs sm:text-sm -rotate-12"
+          className="bg-red-500 text-white px-4 py-2 rounded text-xs sm:text-sm -rotate-12"
         >
           Search engine optimization (seo)
         </motion.h1>
@@ -42,7 +42,7 @@ const Frame = () => {
           initial={{ rotate: 12, y: 0 }}
           animate={{ y: [-10, 10, -10] }}
           transition={{ repeat: Infinity, duration: 2 }}
-          className="bg-green-500 text-black px-4 py-2 rounded text-xs sm:text-sm rotate-12"
+          className="bg-purple-500 text-white px-4 py-2 rounded text-xs sm:text-sm rotate-12"
         >
           Website designing
         </motion.h1>
